@@ -124,8 +124,8 @@ struct RBag {
 };
 
 // Local Net
-const u32 L_NODE_LEN = 0x2000;
-const u32 L_VARS_LEN = 0x2000;
+const u32 L_NODE_LEN = 0x1000;
+const u32 L_VARS_LEN = 0x1000;
 struct LNet {
   Pair node_buf[L_NODE_LEN];
   Port vars_buf[L_VARS_LEN];
